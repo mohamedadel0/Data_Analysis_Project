@@ -9,7 +9,7 @@ with only about 1% of applications labeled as positive (fraudulent). In addition
 dataset variants with specific types of data bias are included to stress test the performance and fairness
 of the models.
 
-Dataset Description
+## Dataset Description
 Each instance (row) in the dataset represents an individual application for a bank account opening. The
 label for each instance is stored in the "is_fraud" column. A positive instance represents a fraudulent
 attempt, while a negative instance represents a legitimate application. The data spans eight months of
@@ -20,7 +20,7 @@ Given the highly imbalanced labeled dataset (Bank Account Fraud - BAF) with 30 f
 account opening application, the task is to develop ML/DL models that can accurately predict fraudulent
 attempts.
 
-Steps we followed:
+## Steps we followed:
 Step 1: Baseline Models and Hyperparameter Tuning
 To start the project, we will begin with the baseline models provided in the notebook Baseline Models
 (ROC). We will attempt to improve the performance of these baseline models by applying
@@ -46,7 +46,7 @@ Second Preprocessing:
 -Handling negative values
 -Target Encoding
 -Robust Scaler
-Step 3: Handling Imbalanced Data - State-of-the-Art (SOTA) Approaches
+## Step 3: Handling Imbalanced Data - State-of-the-Art (SOTA) Approaches
 We have tried five SOTA approaches:
 SMOTE: giving the highest AUC =0.86 with XGB classifier
 ADASYN: giving the highest AUC =0.86 with XGB classifier
@@ -57,7 +57,7 @@ Step 4: Applying the Best Approach to Variant Datasets
 After finding the best approach on the base dataset which is Random Over Sampling we apply it on the 5
 other variant datasets with the same preprocessing made on the baseline dataset.
 
-Here is the Result:
+## Here is the Result:
 
 -The best model for the first variant is logistic regression with AUC .86
 -The best model for the second variant is logistic regression and NN with AUC = .88
