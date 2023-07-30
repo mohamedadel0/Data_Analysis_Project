@@ -21,7 +21,7 @@ account opening application, the task is to develop ML/DL models that can accura
 attempts.
 
 ## Steps we followed:
-Step 1: Baseline Models and Hyperparameter Tuning
+### Step 1: Baseline Models and Hyperparameter Tuning
 To start the project, we will begin with the baseline models provided in the notebook Baseline Models
 (ROC). We will attempt to improve the performance of these baseline models by applying
 hyperparameter tuning for the 4 base line models we could improve the AUC for three of the models
@@ -31,7 +31,7 @@ hyperparameter tuning for the 4 base line models we could improve the AUC for th
 And for LogisticRegression AUC is the same of the base line model
 . Additionally, we introduced two more ML models to evaluate their performance.
 The two models are decision Tree and Naïve Bayes
-Step 2: Data Preprocessing Investigation
+### Step 2: Data Preprocessing Investigation
 We made two preprocessing pipeline:
 First preprocessing:
 -Replacing -1 values with None
@@ -46,7 +46,7 @@ Second Preprocessing:
 -Handling negative values
 -Target Encoding
 -Robust Scaler
-## Step 3: Handling Imbalanced Data - State-of-the-Art (SOTA) Approaches
+### Step 3: Handling Imbalanced Data - State-of-the-Art (SOTA) Approaches
 We have tried five SOTA approaches:
 SMOTE: giving the highest AUC =0.86 with XGB classifier
 ADASYN: giving the highest AUC =0.86 with XGB classifier
