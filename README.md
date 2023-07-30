@@ -1,7 +1,7 @@
 # Data_Analysis_Project
 
 Bank Account Fraud Detection
-Introduction
+## Introduction
 The datasets provided in this repository are related to the detection of fraudulent online bank account
 opening applications in a large consumer bank. The objective is to accurately predict fraudulent
 attempts using Machine Learning (ML) and Deep Learning (DL) models. The data is highly imbalanced,
@@ -44,7 +44,7 @@ Second Preprocessing:
 -Handling outliers with IQR-method
 -Dropping unnecessary columns
 -Handling negative values
--Taget Encoding
+-Target Encoding
 -Robust Scaler
 Step 3: Handling Imbalanced Data - State-of-the-Art (SOTA) Approaches
 We have tried five SOTA approaches:
@@ -58,8 +58,9 @@ After finding the best approach on the base dataset which is Random Over Samplin
 other variant datasets with the same preprocessing made on the baseline dataset.
 
 Here is the Result:
+
 -The best model for the first variant is logistic regression with AUC .86
 -The best model for the second variant is logistic regression and NN with AUC = .88
-- The best model for the third variant is NN with AUC = .94
--The best model for the forth variant is NN too with AUC = .84
+The best model for the third variant is NN with AUC = .94
+-The best model for the fourth variant is NN too with AUC = .84
 -The best model for variant number 5 is .81 logistic regressions with AUC =.81
